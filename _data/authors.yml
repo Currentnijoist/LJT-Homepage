@@ -1,18 +1,34 @@
-# Authors
+# Format:
+#
+#   <username>:
+#     name: <display name>
+#     bio: <short biography>
+#     avatar: profile.png
+#     links:
+#       - label: Email
+#         icon: "fas fa-envelope"
+#         url: "mailto:your-email@example.com"
+#       - label: GitHub
+#         icon: "fab fa-github"
+#         url: https://github.com/<username>
+#
+# If you add a username, it will be used in the post byline.
+# The username is the same as the one in the post's front matter `author` field.
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+junteng:
+  name: Junteng Liu
+  bio: First-year PhD candidate at HKUST NLP Group, Hong Kong University of Science and Technology. My research focuses on natural language processing and machine learning.
+  avatar: profile.png
+  links:
+    - label: Email
+      icon: "fas fa-envelope"
+      url: "mailto:jliugi@connect.ust.hk"
+    - label: GitHub
+      icon: "fab fa-github"
+      url: https://github.com/Vicent0205
+    - label: Google Scholar
+      icon: "fas fa-graduation-cap"
+      url: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
+    - label: X
+      icon: "fab fa-x-twitter"
+      url: https://twitter.com/junteng88716710
